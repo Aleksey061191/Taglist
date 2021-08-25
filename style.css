@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    background: linear-gradient(120deg, #8287cc, #9383db);
+    color: black;
+}
+
+header {
+    font-size: 30px;
+}
+
+.tag-item {
+    margin: 170px auto 30px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    background-color: #fff;
+}
+
+form input,
+form button {
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+form button {
+    color: black;
+    cursor: pointer;
+    transition: all .3 ease;
+}
+
+.readonly {
+    margin-top: 10px;
+    width: 290px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.form-check-label {
+    margin-left: 5%;
+}
+
+
+.tag-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-list {
+    min-width: 320px;
+    max-height: 200px;
+    overflow-y: auto;
+    list-style: none;
+}
+
+.tag {
+    font-size: 18px;
+    margin: 5px;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag li {
+    flex: 1;
+}
+
+
+.delete {
+    background-color: #00b894;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: #d63031;
+}
+
+.tag-doin {
+    padding: 0 10px;
+}
+
+
+.fa-trash-alt {
+    pointer-events: none;
+}
